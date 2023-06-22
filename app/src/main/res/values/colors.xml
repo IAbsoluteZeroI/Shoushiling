@@ -12,8 +12,8 @@
     <color name="light_blue_A200">#FF40C4FF</color>
     <color name="light_blue_A400">#FF00B0FF</color>
     <color name="black_overlay">#66000000</color>
-    <color name="fon_text_color">#81C784</color>
-    <color name="stars_text_color">#FED447</color>
+    <color name="fon_text_color">#F8C73B</color>
+    <color name="stars_text_color">#F8C73B</color>
     <color name="dialog_text_color">#000000</color>
     <color name="buttons_standart">#F8C73B</color>
 

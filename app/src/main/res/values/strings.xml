@@ -6,10 +6,10 @@
     <string name="ready_button">Ready</string>
     <string name="restart_button">Restart</string>
     <string name="start_button">Start</string>
-    <string name="help_button">Help</string>
+    <string name="help_button">INFO</string>
     <string name="beck_button">Back</string>
     <string name="text_menu">Menu</string>
-    <string name="text_help">Help</string>
+    <string name="text_help">Information</string>
     <string name="records_button">Records</string>
     <string name="save_button">Save</string>
     <string name="text_username">Username</string>

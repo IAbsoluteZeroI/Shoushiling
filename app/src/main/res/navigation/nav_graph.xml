@@ -33,9 +33,9 @@
     </fragment>
     <fragment
         android:id="@+id/helpFragment"
-        android:name="com.example.kotlinsecond.HelpFragment"
+        android:name="com.example.kotlinsecond.InfoFragment"
         android:label="fragment_help"
-        tools:layout="@layout/fragment_help" >
+        tools:layout="@layout/fragment_info" >
         <action
             android:id="@+id/action_helpFragment_to_mainFragment"
             app:destination="@id/mainFragment" />

@@ -1,27 +1,23 @@
 package com.example.kotlinsecond
-
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-
 import com.example.kotlinsecond.databinding.FragmentResultBinding
 import com.example.kotlinsecond.db.DatabaseSingleton
-import com.example.kotlinsecond.db.MyDB
 import com.example.kotlinsecond.db.User
+import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
-
 
 class ResultFragment : Fragment() {
 
     private var _binding: FragmentResultBinding? = null
     private val binding get() = _binding!!
 
-    val db by lazy {
+    private val db by lazy {
         DatabaseSingleton.getDB(requireContext())
     }
 
@@ -31,6 +27,7 @@ class ResultFragment : Fragment() {
         return binding.root
     }
 
+    @OptIn(DelicateCoroutinesApi::class)
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val dao = db.getDao()

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Shoushilin</string>
+    <string name="rock_button">Rock</string>
+    <string name="scissors_button">Scissors</string>
+    <string name="paper_button">Paper</string>
+    <string name="ready_button">Ready</string>
+    <string name="restart_button">Restart</string>
+    <string name="start_button">Start</string>
+    <string name="help_button">Help</string>
+    <string name="beck_button">Back</string>
+    <string name="text_menu">Menu</string>
+    <string name="text_help">Help</string>
+    <string name="records_button">Records</string>
+    <string name="save_button">Save</string>
+    <string name="text_username">Username</string>
+    <string name="text_win">Win!</string>
+    <string name="text_context">username</string>
+
+
+    <string name="text_help2">Игра shoushilin (手石林) с усложнениями:
+        Чтобы играть нажмите кнопку "Start" в главном меню. В игре у вас есть по 4 карты каждого  вида. В начале игры вам дается 3 сердца. За каждую победу над оппонентом вы получаете по 1 сердцу, а за поражение теряете. Игра длится до тех пор, пока у игроков есть карты и у каждого хотя бы по одному сердцу. Цель игры - забрать все сердца у оппонента и не потерять свои.\n______________________________\n Авторы:\n Голышев Алексей\n и \nСкок Андрей</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

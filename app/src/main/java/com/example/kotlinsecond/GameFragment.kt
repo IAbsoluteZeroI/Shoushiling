@@ -33,7 +33,7 @@ class GameFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.botStarsNum.text = "x$botStarsNum"
-        binding.starsNum.text = "$starsNum"
+        binding.starsNum.text = "x$starsNum"
         binding.rockImage.init("rock", true)
         binding.scissorsImage.init("scissors", true)
         binding.paperImage.init("paper", true)

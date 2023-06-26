@@ -15,7 +15,6 @@ class RecordFragment : Fragment() {
     private val db by lazy {
         DatabaseSingleton.getDB(requireContext())
     }
-
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         _binding = FragmentRecordsBinding.inflate(inflater, container, false)
         return binding.root
